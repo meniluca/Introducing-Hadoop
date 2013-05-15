@@ -1,7 +1,7 @@
 How to install hadoop in few steps
 ==================================
 
-The following steps are just few hints, is more a guideline than precise directives. How have to know what you're doing.
+The following steps are just few hints, is more a guideline than precise directives. You have to know what you're doing.
 
 Object
 
@@ -49,9 +49,8 @@ Object
 	</property>
   
 10) Add this property to `conf/mapred-site.xml`
-
-    
-  <property>
+ 
+  	<property>
 	  <name>mapred.job.tracker</name>
 	  <value>localhost:54311</value>
 	  <description>The host and port that the MapReduce job tracker runs
