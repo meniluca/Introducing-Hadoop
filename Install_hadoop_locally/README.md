@@ -19,12 +19,13 @@ Object
 
 7) Uncomment and modify `export JAVA_HOME=...` in `conf/hadoop-env`
 
-8) Add these properties to `conf/core-site.xml`
+8) Add these properties to `conf/core-site.xml` with a valid folder (the folder has to contain `dfs/name`)
 
     <property>
     <name>hadoop.tmp.dir</name>
-	  <value>/tmp</value>
-	  <description>A base for other temporary directories.</description>
+	  <value>/home/USERNAME/hadoop/tmp</value>
+	  <description>A base for other temporary directories. 
+	  	Ex.: /opt/hadoop/tmp with subfolders dfs/name/</description>
 	</property>
 	
 	<property>
