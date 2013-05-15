@@ -19,7 +19,7 @@ Object
 
 7) Uncomment and modify `export JAVA_HOME=...` in `conf/hadoop-env`
 
-8) Add these properties to `conf/core-site.xml` with a valid folder (the folder has to contain `dfs/name`)
+8) Add these properties to `conf/core-site.xml` with a valid folder (the folder has to contain `dfs/name/`)
 
     <property>
     <name>hadoop.tmp.dir</name>
