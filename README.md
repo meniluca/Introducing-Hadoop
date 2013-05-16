@@ -7,7 +7,6 @@ Little repository with examples to understand hadoop mapreduce.
 
 * [Temperature project](https://github.com/H4ml3t/introducing_hadoop/tree/master/Temperature)
 * [Word Count project](https://github.com/H4ml3t/introducing_hadoop/tree/master/Word%20Count)
-* [Word Count project to create a Jar](https://github.com/H4ml3t/introducing_hadoop/tree/master/Word%20Count%20Jar)
 
 ## Hadoop Library
 
