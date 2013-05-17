@@ -21,11 +21,8 @@ public class BigramWritable implements WritableComparable<BigramWritable> {
 
 	@Override
 	public void readFields(DataInput in) throws IOException {
-
 		leftBigram = new Text(in.readUTF());
 		rightBigram = new Text(in.readUTF());
-//		leftBigram.readFields(in);
-//		rightBigram.readFields(in);
 	}
 
 	@Override
