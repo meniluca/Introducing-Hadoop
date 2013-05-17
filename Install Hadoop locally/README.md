@@ -1,9 +1,18 @@
 How to install hadoop in few steps
 ==================================
 
+### 
+
 The following steps are just few hints, is more a guideline than precise directives. You have to know what you're doing.
 
-Object
+On Windows:
+
+* [Setup ssh for windows on Cygwin](https://gist.github.com/tariqmislam/2159173/raw/c03008593ec2f6eeb72a973c6912c48e16d61a36/instructions+and+how-to)
+* [Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)
+* [Cloud9, start standalone](http://lintool.github.io/Cloud9/docs/content/start-standalone.html)
+* [Cloud9, start EC2](http://lintool.github.io/Cloud9/docs/content/start-EC2.html)
+
+On Linux:
 
 1) Install `java-jdk`
 
