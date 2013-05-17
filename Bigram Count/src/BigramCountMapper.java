@@ -20,7 +20,6 @@ public class BigramCountMapper extends Mapper<LongWritable, Text, BigramWritable
       while (itr.hasMoreTokens()) {
         String cur = itr.nextToken();
 
-        // Emit only if we have an actual bigram.
         if (prev != null) {
           BIGRAM.set(new Text(prev),new Text(cur));
           context.write(BIGRAM, ONE);
