@@ -38,7 +38,7 @@ public class BigramWritable implements WritableComparable<BigramWritable> {
 
 	@Override
 	public String toString() {
-		return leftBigram.toString() + " "	+ rightBigram.toString();
+		return leftBigram.toString() + " " + rightBigram.toString();
 	}
 	
 	  @Override
