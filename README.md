@@ -20,8 +20,7 @@ There are more files than necessary, delete what you don't need.
 
 ## Install Hadoop
 
-* Single node setup: [Apache Hadoop - Getting started](http://hadoop.apache.org/docs/stable/single_node_setup.html)
-* A useful online guide: [Running hadoop on ubuntu linux single node cluster](http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/)
+[How to install Hadoop locally](https://github.com/H4ml3t/Introducing-Hadoop/blob/master/Install%20Hadoop%20locally/README.md)
 
 ##References
 
