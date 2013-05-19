@@ -1,5 +1,5 @@
-How to install hadoop in few steps
-==================================
+How to install hadoop
+=====================
 
 ### Download Hadoop
 
@@ -13,15 +13,18 @@ You can also use older versions like the `0.22.X` or the old legacy stable versi
 
 Alternatively you can install any Linux distrubution on [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) to work virtually in a safe way.
 
-To use Hadoop on Windows you have to install [Cygwin](http://www.cygwin.com/). Find where is your `~/.bashrc` file in which you can export the following variable: `JAVA_HOME`, `HADOOP_HOME`.
+To use Hadoop on Windows you have to install [Cygwin](http://www.cygwin.com/). Find where is your `~/.bashrc` file in which you can export the following variable: `JAVA_HOME`, `HADOOP_HOME`, `HADOOP_INSTALL`.
 
 If you want to install hadoop in **standalone mode** you can just stop here.
 
-Here you can find some good tutorial for the **pseudo-distributed mode**:
+Here you can find some good tutorial for **standalone mode** and **pseudo-distributed mode**:
 
-* [Setup Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)  ← :D
+* [Setup Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)   ← :D
 * [Running hadoop on Windows](http://hayesdavis.net/2008/06/14/running-hadoop-on-windows/)
 * [Installing hadoop apache](http://www.oreillynet.com/pub/a/other-programming/excerpts/hadoop-tdg/installing-apache-hadoop.html)
+* [Getting started in standalone mode](http://lintool.github.io/Cloud9/docs/content/start-standalone.html)  ← :D
+* [hadoop-modes-explained-standalone](http://www.javacodegeeks.com/2012/01/hadoop-modes-explained-standalone.html)
+* [Standalone-hadoop](https://github.com/jweese/thrax/wiki/Standalone-hadoop)  ← :D
 
 ### Linux
 
