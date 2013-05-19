@@ -16,7 +16,7 @@ There are more files than necessary, delete what you don't need.
 
 ## Slides
 
-[Introducing Hadoop 20-05-2013]()
+[Introducing Hadoop 20-05-2013](https://github.com/H4ml3t/Introducing-Hadoop/raw/master/Slides/Introducing.hadoop.pdf)
 
 ## Install Hadoop
 
