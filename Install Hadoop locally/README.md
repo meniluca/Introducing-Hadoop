@@ -13,14 +13,19 @@ You can also use older versions like the `0.22.X` or the old legacy stable versi
 
 Alternatively you can install any Linux distrubution on [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) to work virtually in a safe way.
 
-* [Setup ssh for windows on Cygwin](https://gist.github.com/tariqmislam/2159173/raw/c03008593ec2f6eeb72a973c6912c48e16d61a36/instructions+and+how-to)
-* [Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)
-* [Cloud9, start standalone](http://lintool.github.io/Cloud9/docs/content/start-standalone.html)
-* [Cloud9, start EC2](http://lintool.github.io/Cloud9/docs/content/start-EC2.html)
+To use Hadoop on Windows you have to install [Cygwin](http://www.cygwin.com/). Find where is your `~/.bashrc` file in which you can export the following variable: `JAVA_HOME`, `HADOOP_HOME`.
+
+If you want to install hadoop in **standalone mode** you can just stop here.
+
+Here you can find some good tutorial for the **pseudo-distributed mode**:
+
+* [Setup Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)  ← :D
+* [Running hadoop on Windows](http://hayesdavis.net/2008/06/14/running-hadoop-on-windows/)
+* [Installing hadoop apache](http://www.oreillynet.com/pub/a/other-programming/excerpts/hadoop-tdg/installing-apache-hadoop.html)
 
 ### Linux
 
-How to install **pseudo-distributed version**:
+How to install **pseudo-distributed mode**:
 
 The following steps are just few hints, is more a guideline than precise directives.
 
