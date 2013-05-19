@@ -11,7 +11,7 @@ Little repository with examples to understand hadoop mapreduce.
 
 ## Hadoop Library
 
-[Here](https://dl.dropboxusercontent.com/u/28262951/hadoop-libraries.zip) you can find some jar files to link to projects' build path.
+[Here](https://dl.dropboxusercontent.com/u/28262951/hadoop-libraries.zip) you can find some jar files to link to your projects' build path.
 There are more files than necessary, delete what you don't need.
 
 ## Slides
