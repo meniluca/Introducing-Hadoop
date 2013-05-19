@@ -11,6 +11,8 @@ Beware of what version to install on windows because the last stable presents so
 
 You can also use older versions like the `0.22.X` or the old legacy stable version `0.20.203.X`.
 
+Alternatively you can install any Linux distrubution on [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) to work virtually in a safe way.
+
 * [Setup ssh for windows on Cygwin](https://gist.github.com/tariqmislam/2159173/raw/c03008593ec2f6eeb72a973c6912c48e16d61a36/instructions+and+how-to)
 * [Cygwin for Hadoop (Win 7)](http://mukulcygwin.blogspot.it/)
 * [Cloud9, start standalone](http://lintool.github.io/Cloud9/docs/content/start-standalone.html)
