@@ -5,6 +5,8 @@ How to install hadoop
 
 Choose a version: [http://hadoop.apache.org/releases.html#Download](http://hadoop.apache.org/releases.html#Download)
 
+* Single node setup: [Apache Hadoop - Getting started](http://hadoop.apache.org/docs/stable/single_node_setup.html)
+
 ### Windows:
 
 Beware of what version to install on windows because the last stable presents some problems (see [this](http://stackoverflow.com/questions/10509427/hadoop-in-windows), and [this](https://issues.apache.org/jira/browse/HADOOP-7682)). You can find a patch [here](https://github.com/congainc/patch-hadoop_7682-1.0.x-win).
@@ -27,6 +29,8 @@ Here you can find some good tutorial for **standalone mode** and **pseudo-distri
 * [Standalone-hadoop](https://github.com/jweese/thrax/wiki/Standalone-hadoop)  ← :D
 
 ### Linux
+
+* A useful online guide: [Running hadoop on ubuntu linux single node cluster](http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/) ← :D:D
 
 How to install **pseudo-distributed mode**:
 
