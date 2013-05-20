@@ -15,7 +15,7 @@ You can also use older versions like the `0.22.X` or the old legacy stable versi
 
 Alternatively you can install any Linux distrubution on [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) to work virtually in a safe way.
 
-To use Hadoop on Windows you have to install [Cygwin](http://www.cygwin.com/). Find where is your `~/.bashrc` file in which you can export the following variable: `JAVA_HOME`, `HADOOP_HOME`, `HADOOP_INSTALL`.
+To use Hadoop on Windows you have to install [Cygwin](http://www.cygwin.com/). During the installation you can select programs to install (in addiction to default programs) and there select ssh (needed for pseudo-distributed mode). Find your `~/.bashrc` file in which you can export the following variable: `JAVA_HOME`, `HADOOP_HOME`, `HADOOP_INSTALL`.
 
 If you want to install hadoop in **standalone mode** you can just stop here.
 
