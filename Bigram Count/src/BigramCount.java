@@ -36,19 +36,13 @@ public class BigramCount extends Configured implements Tool {
   private static final String OUTPUT = "output";
   private static final String NUM_REDUCERS = "numReducers";
 
-  /**
-* Runs this tool.
-*/
   @SuppressWarnings({ "static-access" })
   public int run(String[] args) throws Exception {
     Options options = new Options();
 
-    options.addOption(OptionBuilder.withArgName("path").hasArg()
-        .withDescription("input path").create(INPUT));
-    options.addOption(OptionBuilder.withArgName("path").hasArg()
-        .withDescription("output path").create(OUTPUT));
-    options.addOption(OptionBuilder.withArgName("num").hasArg()
-        .withDescription("number of reducers").create(NUM_REDUCERS));
+    options.addOption(OptionBuilder.withArgName("path").hasArg().withDescription("input path").create(INPUT));
+    options.addOption(OptionBuilder.withArgName("path").hasArg().withDescription("output path").create(OUTPUT));
+    options.addOption(OptionBuilder.withArgName("num").hasArg().withDescription("number of reducers").create(NUM_REDUCERS));
 
     CommandLine cmdline;
     CommandLineParser parser = new GnuParser();
@@ -97,7 +91,6 @@ public class BigramCount extends Configured implements Tool {
     job.setMapperClass(BigramCountMapper.class);
     job.setReducerClass(BigramCountReducer.class);
 
-    // Delete the output directory if it exists already.
     Path outputDir = new Path(outputPath);
     FileSystem.get(getConf()).delete(outputDir, true);
 
@@ -108,9 +101,6 @@ public class BigramCount extends Configured implements Tool {
     return 0;
   }
 
-  /**
-* Dispatches command-line arguments to the tool via the {@code ToolRunner}.
-*/
   public static void main(String[] args) throws Exception {
     ToolRunner.run(new BigramCount(), args);
   }
