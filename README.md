@@ -1,7 +1,7 @@
 Introducing Hadoop
 ==================
 
-Little repository with examples to understand hadoop mapreduce.
+A little repository with examples to understand hadoop mapreduce.
 
 ## Summary
 
